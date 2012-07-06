@@ -26,7 +26,7 @@ setTimeout(callbackManager.getReceiver( COUNTER_SUCESS ),500);
 		
 })( callbackManager.getReceiver( COUNTER_SUCESS, "closure" ) );
 
-//It will be execute when all of receivers called.
+//It will be executed when all of receivers called.
 callbackManager.done( COUNTER_SUCESS, function( result ){
 	console.log("[done1] do something!");
 	for( var name in result ){
