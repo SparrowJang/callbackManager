@@ -2,6 +2,7 @@
   "name": "callback-manager",
   "version": "0.0.1",
   "main": "index.js",
+  "description":"Processing return callbacks.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
