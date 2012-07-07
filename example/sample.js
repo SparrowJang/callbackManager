@@ -24,7 +24,7 @@ setTimeout(callbackManager.getReceiver( COUNTER_SUCESS ),500);
 		receiver( result );
 	},1500);
 		
-})( callbackManager.getReceiver( COUNTER_SUCESS, "closure" ) );
+})( callbackManager.getReceiver( COUNTER_SUCESS, {resultName:"closure"} ) );
 
 //It will be executed when all of receivers called.
 callbackManager.done( COUNTER_SUCESS, function( result ){

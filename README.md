@@ -6,19 +6,19 @@ Create a callback manager.
 
 Create a counter.
 
-	callbackManager.create("success");
+	callbackManager.create();
 
 Add a receiver to callback.
 
-	setTimeout(callbackManager.getReceiver("success"),100);
+	setTimeout(callbackManager.getReceiver(),100);
 
 Add second receiver to callback.
 
-	setTimeout(callbackManager.getReceiver("success"),150);
+	setTimeout(callbackManager.getReceiver(),150);
 	
 Process result when two callback is called.
 
-	callbackManager.done( "success", function(){ console.log("success"); });
+	callbackManager.done( function(){ console.log("success"); });
 
 ###Run example
 	node example/sample.js
