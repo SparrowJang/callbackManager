@@ -1,5 +1,5 @@
 {
-  "name": "callback-manager",
+  "name": "callbacks-manager",
   "version": "0.0.2",
   "main": "index.js",
   "description":"Processing return callbacks.",
@@ -10,6 +10,6 @@
     "type": "git",
     "url": "git://github.com/SparrowJang/callbackManager"
   },
-  "author": "Sparrow.Jang",
+  "author": "sparrow.jang",
   "license": "BSD"
 }
