@@ -1,5 +1,5 @@
 
-###This is a processing callback plugin.
+### This is a processing callback plugin.
 Create a callback manager.
 
 	var callbackManager = require("callback-manager").create();
@@ -20,7 +20,7 @@ Process result when two callback is called.
 
 	callbackManager.done( function(){ console.log("success"); });
 
-###Run example
+### Run example
 	node example/sample.js
 
 
